@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from docs.pixelstrap.net/reactnative/megabot/document/in_app.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 03:25:40 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pixelstrap - Admin Document" />
+    <meta name="keywords" content="Pixelstrap - Admin Document" />
+    <meta name="author" content="pixelstrap" />
+    <link rel="icon" href="https://docs.pixelstrap.net/reactnative/megabot/assets/images/megabot-favicon.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://docs.pixelstrap.net/reactnative/megabot/assets/images/megabot-favicon.svg" type="image/x-icon" />
+    <title>Ocenus Documentation</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome-->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/feather-icon.css" />
+    <!-- animate-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/animate.css" />
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css" />
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+</head>
+
+<body>
+    <!-- tap on top starts-->
+    <a href="javascript:void(0)" class="sidebar-overlay"></a>
+    <div class="tap-top">
+        <i data-feather="chevrons-up"></i>
+        <p>Top</p>
+    </div>
+    <!-- tap on tap ends-->
+    <div>
+        <div class="home-section">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container custom-container">
+                    <div class="main-menu"><a class="navbar-brand" href="index.html"> <img
+                                src="https://docs.pixelstrap.net/reactnative/megabot/assets/images/logo/logo.svg" alt=""></a>
+                        <div>
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#mainNavContent" aria-controls="mainNavContent" aria-expanded="false"
+                                aria-label="Toggle navigation"><i class="fa fa-bars"> </i></button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav menu">
+                                    <li class="nav-item active"><a class="nav-link" href="#" role="button"
+                                            aria-haspopup="true" aria-expanded="false" target="_blank">Purchase</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false" target="_blank">Support</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" role="button" aria-haspopup="true"
+                                            aria-expanded="false" target="_blank">Demo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="nav-right">
+                            <li>
+                                <div class="d-lg-none d-block"><a class="toggle-sidebar" href="#"><i
+                                            class="fa fa-sliders"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-group"><a class="decrease btn btn-doc" href="#"
+                                        title="Decrease font size">A-</a><a class="reset btn btn-doc" href="#"
+                                        title="Default font size">A</a><a class="increase btn btn-doc" href="#"
+                                        title="Increase font size">A+</a></div>
+                            </li>
+                            <li><a class="btn btn-light mode" href="#" title="Dark"><i class="fa fa-moon-o"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container custom-container">
+                <div class="search-input">
+                    <div class="top-heading">
+                        <h2> Ocenus Documentation </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="effect-sec">
+                <img src="../assets/images/robot.png" class="img-fluid robot-img" alt="" >
+            </div>
+        </div>
+    </div>
+    <div class="container custom-container">
+        <div class="document-main">
+            <div class="left-sidebar">
+                <aside>
+                    <ul class="list-unstyled nav-sidebar doc-nav collapse navbar-collapse" id="mainNavContent">
+                        <li class="nav-item">
+                            <button data-bs-toggle="collapse" data-bs-target="#mainNavContent"
+                                class="mainNavContentBtn d-block d-xl-none" aria-expanded="true"><svg
+                                    viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-nav">
+                                <div class="accordion accordion-flush sidebar-accordion left-accordion" id="adminsetup">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#flush-adminsetup">Admin Setup</button> <svg
+                                                viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+                                                stroke-width="2" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round" class="css-i6dzq1">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg>
+                                        </h2>
+                                        <div id="flush-adminsetup" class="accordion-collapse collapse show"
+                                            data-bs-parent="#adminsetup">
+                                            <div class="accordion-body">
+                                                <ul class="dropdown-nav">
+                                                    <li class="nav-item"><a class="nav-link" href="index.html">Getting
+                                                            Started</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="admin.html">Manual Set Up</a></li>
+<li class="nav-item"><a class="nav-link" href="installation_wizard.html">Installation Wizard</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="caracter.html">Manage
+                                                            Characters</a></li>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="general-settings.html">General Settings</a>
+                                                    </li>
+                                                    <li class="nav-item"><a class="nav-link" href="ad_settings.html">Ads
+                                                            Settings</a></li>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="email_setting.html">Email Settings</a></li>
+                                                            <li class="nav-item"><a class="nav-link"
+                                                                href="license_setting.html">License Setting</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion accordion-flush sidebar-accordion left-accordion" id="appsetup">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#flush-appsetup">App Setup</button> <svg
+                                                viewBox="0 0 24 24" width="24" height="24" stroke="currentColor"
+                                                stroke-width="2" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round" class="css-i6dzq1">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg>
+                                        </h2>
+                                        <div id="flush-appsetup" class="accordion-collapse collapse show"
+                                            data-bs-parent="#appsetup">
+                                            <div class="accordion-body">
+                                                <ul class="dropdown-nav">
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="installation.html">Installation</a></li>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="create-project.html">Create Project</a></li>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="update-theme.html">Update Theme</a></li>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="change_app_name.html">Change App Name</a>
+                                                    </li>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="change_app_icon.html">Change App Icon</a>
+                                                    </li>
+                                                    <div class="accordion accordion-flush sidebar-accordion left-accordion"
+                                                        id="firebase_setup">
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button " type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#flush-collapsesetup">Firebase</button>
+                                                                <svg viewBox="0 0 24 24" width="24" height="24"
+                                                                    stroke="currentColor" stroke-width="2" fill="none"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="css-i6dzq1">
+                                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                                </svg>
+                                                            </h2>
+                                                            <div id="flush-collapsesetup"
+                                                                class="accordion-collapse collapse"
+                                                                data-bs-parent="#firebase_setup">
+                                                                <div class="accordion-body">
+                                                                    <ul class="dropdown-nav">
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link"
+                                                                                href="firebase_setup.html"> Firebase
+                                                                                Setup</a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link"
+                                                                                href="firebase_sha.html"> Add Firebase
+                                                                                SHA key</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <li class="nav-item"><a class="nav-link" href="build_apk.html">Build
+                                                            APK</a></li>
+                                                    <div class="accordion accordion-flush sidebar-accordion left-accordion"
+                                                        id="social_login">
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button " type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#flush-collapsekey">Social
+                                                                    Login</button> <svg viewBox="0 0 24 24" width="24"
+                                                                    height="24" stroke="currentColor" stroke-width="2"
+                                                                    fill="none" stroke-linecap="round"
+                                                                    stroke-linejoin="round" class="css-i6dzq1">
+                                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                                </svg>
+                                                            </h2>
+                                                            <div id="flush-collapsekey"
+                                                                class="accordion-collapse collapse"
+                                                                data-bs-parent="#social_login">
+                                                                <div class="accordion-body">
+                                                                    <ul class="dropdown-nav">
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link"
+                                                                                href="google_login.html"> Google
+                                                                                Login</a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="apple_login.html">
+                                                                                Apple
+                                                                                Login</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion accordion-flush sidebar-accordion left-accordion"
+                                                        id="payment_gateway">
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                                <button class="accordion-button " type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#flush-collapsekey1">Payment
+                                                                    Gateways</button> <svg viewBox="0 0 24 24"
+                                                                    width="24" height="24" stroke="currentColor"
+                                                                    stroke-width="2" fill="none" stroke-linecap="round"
+                                                                    stroke-linejoin="round" class="css-i6dzq1">
+                                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                                </svg>
+                                                            </h2>
+                                                            <div id="flush-collapsekey1"
+                                                                class="accordion-collapse collapse show"
+                                                                data-bs-parent="#payment_gateway">
+                                                                <div class="accordion-body">
+                                                                    <ul class="dropdown-nav">
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="stripe.html">
+                                                                                Stripe Pay</a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="paypal.html">
+                                                                                Paypal Pay</a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="razorpay.html">
+                                                                                Razor Pay</a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="in_app.html">
+                                                                                In-App Pay</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="common_error.html">Common Errors</a></li>
+                                                    <li class="nav-item"><a class="nav-link"
+                                                            href="changelog.html">Change Log</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-sm-12" id="introduction">
+                        <div class="card gulp-section" id="requirement">
+                            <div class="card-header">
+                                <h5 class="inner-sub-title mb-0 mt-0">In-App Payment</h5>
+                            </div>
+                            <div class="card-body p-t-0">
+                                <ol
+                                    style="list-style: decimal; letter-spacing: 0px; font-size: 16px;font-weight: 600; margin-bottom: 0;">
+                                    <li>There's a significant amount of setup required for testing in app purchases
+                                        successfully, including registering new app IDs and store entries to use for
+                                        testing in both the Play Developer Console and App Store Connect. Both Google
+                                        Play and the App Store require developers to configure an app with in-app items
+                                        for purchase to call their in-app-purchase APIs. Both stores have extensive
+                                        documentation on how to do this, and we've also included a high level guide
+                                        below.</li>
+                                    <li>In-App Purchase (App Store) - <a
+                                            href="https://developer.apple.com/in-app-purchase/">https://developer.apple.com/in-app-purchase/</a>
+                                    </li>
+                                    <li>Google Play Billing Overview - <a
+                                            href="https://developer.android.com/google/play/billing/billing_overview">https://developer.android.com/google/play/billing/billing_overview</a>
+                                    </li>
+                                </ol>
+                                <br>
+                                <h4><b>For Android:</b></h4>
+                                <ol
+                                    style="list-style: decimal; letter-spacing: 0px; font-size: 16px;font-weight: 600; margin-bottom: 0;">
+                                    <li>Create a new app in the (Play Developer Console) - <a
+                                            href="https://play.google.com/apps/publish/">https://play.google.com/apps/publish/</a>
+                                    </li>
+                                    <li>Sign up for a merchant's account in the Play Developer Console.
+                                    </li>
+                                    <li>Create subscriptions in the Play Developer Console available for purchase in
+                                        the app. The example assumes the following SKU IDs exist:
+                                    </li>
+                                    <br>
+                                    <ul>
+                                        <li>Weekly plan with subscription id : weeklyplan_330.</li>
+                                        <li>Monthly plan with subscription id : monthlyplan_826.</li>
+                                        <li>Lifetime plan with subscription id : lifetimeplan_2375.</li>
+                                    </ul>
+                                </ol>
+                                <img src="../assets/images/app/revenuecat1.png" alt="" width="650px"
+                                    style="margin-top: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                <br>
+                                <br>
+                                <b>
+                                    <li>Make sure that all the subscriptions are set to ACTIVE.
+                                    </li>
+                                </b>
+                                <br>
+                                <br>
+                                <h4><b>Revenuecat:</b></h4>
+                                <br>
+                                </li>
+                                <ol
+                                    style="list-style: decimal; letter-spacing: 0px; font-size: 16px;font-weight: 600; margin-bottom: 0;">
+                                    <li>Create your Revenuecat account <a
+                                            href="https://www.revenuecat.com/">https://www.revenuecat.com/</a>.</li>
+                                    <li>Now go to dashboard and click on create project.</li>
+                                    <img src="../assets/images/app/revenuecat2.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px;box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <br>
+                                    <li>Now give name of your project and click on create project button.</li>
+                                    <img src="../assets/images/app/revenuecat3.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now select which app you want to setup here we are doing it for android so will
+                                        select playstore.</li>
+                                    <img src="../assets/images/app/revenuecat4.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now give app name and give package name with which you have created app in play
+                                        console and drag and drop or select credentails JSON to create JSON click on <a
+                                            href="https://docs.revenuecat.com/docs/creating-play-service-credentials">How
+                                            do I create
+                                            this? .</a></li>
+                                    <img src="../assets/images/app/revenuecat5.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>After adding proper details save changes button will be enabled click on it.
+                                    <li>Now to got products and click on +New.</li>
+                                    <img src="../assets/images/app/revenuecat6.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>Now select you app</li>
+                                    <img src="../assets/images/app/revenuecat7.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>Now you can add you products </li>
+                                    <ol>
+                                        <li>By directly importing for that click on import</li>
+                                        <li>By creating it manually by adding subscription id or base plan id which you
+                                            have created in play console.</li>
+                                    </ol>
+                                    <img src="../assets/images/app/revenuecat8.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>After importing product it will look like this</li>
+                                    <img src="../assets/images/app/revenuecat9.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now go to entitilements and click on +New</li>
+                                    <img src="../assets/images/app/revenuecat10.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now give Identifier and give Description and click on ADD</li>
+                                    <img src="../assets/images/app/revenuecat11.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now Click on Attach</li>
+                                    <img src="../assets/images/app/revenuecat12.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now Select product from dropdown and if you havne't created then click on add a
+                                        new product</li>
+                                    <img src="../assets/images/app/revenuecat13.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>After adding entitilements it will look like this</li>
+                                    <img src="../assets/images/app/revenuecat14.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now click on product select product and add entitilements in Associated
+                                        Entitlements.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat19.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now go to offering and click on +New</li>
+                                    <img src="../assets/images/app/revenuecat15.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now Add Identifier and Description and click on Save</li>
+                                    <img src="../assets/images/app/revenuecat16.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>After creating offering we need to add package for that click on +New.</li>
+                                    <img src="../assets/images/app/revenuecat17.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now add Identifier and description and click on ADD.</li>
+                                    <img src="../assets/images/app/revenuecat18.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now we are done with our revenuecat setup.</li>
+                                </ol>
+                                <br>
+                                <h4><b>For IOS:</b></h4>
+                                <ol
+                                    style="list-style: decimal; letter-spacing: 0px; font-size: 16px;font-weight: 600; margin-bottom: 0;">
+                                    <li>Create a new app in the (Apple Developer Console) - <a
+                                            href="https://appstoreconnect.apple.com/apps">https://appstoreconnect.apple.com/apps</a>
+                                    </li>
+                                    <li>Go to subscription tab and create subscriptions in the Apple Developer Console
+                                        available for purchase in
+                                        the app.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat20.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now give name and click on create button.</li>
+                                    <img src="../assets/images/app/revenuecat21.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now click on availablity to set country in which you want to show in-app.</li>
+                                    <img src="../assets/images/app/revenuecat22.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Set availablity as per your choice in which country you want to show
+                                        subscription.</li>
+                                    <img src="../assets/images/app/revenuecat23.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now click on Add Subscription Price to add price for your in-app.</li>
+                                    <img src="../assets/images/app/revenuecat24.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now click on choose and select price for in-app and click on next.</li>
+                                    <img src="../assets/images/app/revenuecat25.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now if you want to change currency for 1 country or multiple then you can click
+                                        on price and can change or else just click on next.</li>
+                                    <img src="../assets/images/app/revenuecat26.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>If you think you still need to do some changes then click on back and do you
+                                        changes and click on next or else click on confirm.</li>
+                                    <img src="../assets/images/app/revenuecat27.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now we will add localization so for that click on Add Localization.</li>
+                                    <img src="../assets/images/app/revenuecat28.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now add Name and Description and click on Add this will display on appstore.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat29.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>After adding localization it will look like this.</li>
+                                    <img src="../assets/images/app/revenuecat30.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now we will add Review information for the app store to check our subscription
+                                        this
+                                        details are not displayed on the app store it's for the app store itself add a
+                                        screenshot
+                                        and review notes so it will be easy for the app store to check our subscription.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat31.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>After adding all details click on save.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat32.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>After adding all details in subscription it will look like this.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat33.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>As we are seeing that still it showing missing metadata so for that we need add
+                                        localization.
+                                    </li>
+                                    <li>Click on create to create localization.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat34.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now give name and click on create.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat35.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>If after adding localization if you still see missing metadata then check if you
+                                        have added duration or not.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat36.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Select duration and click on save.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat37.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now our all subscriptions will be in ready to submit which is very important to
+                                        make our in-app work.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat38.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Please read this note carefully.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat39.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                </ol>
+                                <br>
+                                <h4><b>Revenuecat:</b></h4>
+                                <ol
+                                    style="list-style: decimal; letter-spacing: 0px; font-size: 16px;font-weight: 600; margin-bottom: 0;">
+                                    <li>Now as we have already created account and android app in revenuecat for ios
+                                        goto dashboard and click on +New.</li>
+                                    <img src="../assets/images/app/revenuecat40.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px;box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now click on App store.</li>
+                                    <img src="../assets/images/app/revenuecat41.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px;box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now give App name,App Bundle ID,App Store Connect App-Specific Shared Secret.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat42.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px;box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>
+                                        To generate App Store Connect App-Specific Shared Secret click on i button
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat43.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px;box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li id="apikey">To get our products we need connect app store and for that we need
+                                        to add P8 key
+                                        file if you have already generated the directly drag or select from file manager
+                                        and to generate click on <a
+                                            href="https://www.revenuecat.com/docs/app-store-connect-api-key-configuration">learn
+                                            more</a> and
+                                        follow the steps.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat44.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px;box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <p><B><code>Note:
+                                            Make sure that you keep your key secure because you will be able to download it only once.</code></B>
+                                    </p>
+                                    <li>Now we will fetch products in our products section.
+                                    </li>
+                                    <li>Now to got products and click on +New.</li>
+                                    <img src="../assets/images/app/revenuecat6.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>Now select ios app.</li>
+                                    <img src="../assets/images/app/revenuecat45.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>Now you can add you products </li>
+                                    <ol>
+                                        <li>By directly importing for that click on IMPORT PRODUCTS.</li>
+                                        <li>By creating it manually by adding subscription id which you
+                                            have created in apple developer console.</li>
+                                    </ol>
+                                    <img src="../assets/images/app/revenuecat46.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>If you face this error while loading product make sure you have connected
+                                        appstore correctly with revenuecat as shown in <a href="#apikey">step 5</a>.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat47.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>When click on import product it will show the list which we have created in
+                                        appstore.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat48.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>Select product which you want to use and click on import.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat49.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>After importing product it will look something like this now as it is showing 0
+                                        Entitlements so we will add entitlements.
+                                    </li>
+                                    <img src="../assets/images/app/revenuecat50.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    </li>
+                                    <li>Now go to entitilements and click entitlements which we have created.</li>
+                                    <img src="../assets/images/app/revenuecat10.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now click on attach to add out apple products.</li>
+                                    <img src="../assets/images/app/revenuecat51.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>Now click on choose a product and choose product which you want to use and click
+                                        on ADD.</li>
+                                    <img src="../assets/images/app/revenuecat52.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <li>After adding entitlements when we goto product and check it will automatically
+                                        show that 1 entitlement added in each ios product.</li>
+                                    <img src="../assets/images/app/revenuecat53.png" alt="" width="650px"
+                                        style="margin-top: 25px; margin-bottom: 25px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; border-radius: 5px">
+                                    <p><B><code>Note:
+                                            Make sure the product which
+                                            you have imported in products section you have also imported entitlement section
+                                            then only it will show entitlement in product section.</code></B>
+                                </ol>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-sidebar right-part">
+                <aside>
+                    <ul class="list-unstyled nav-sidebar doc-nav">
+                        <li class="nav-item">
+                            <div class="title">Quick links</div>
+                            <ul class="dropdown-nav ps-0">
+                                <!-- <li class="nav-item"><a class="nav-link"
+                                href="https://themes.pixelstrap.com/landing/probot/" target="_blank"><i
+                                    class="fa fa-angle-right me-2"></i>Preview</a></li> -->
+                                <li class="nav-item"><a class="nav-link" href="https://support.pixelstrap.com/"
+                                        target="_blank"><i class="fa fa-angle-right me-2"></i>Ask a
+                                        Question</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link"
+                                href="https://codecanyon.net/item/probot-chatgpt-open-ai-android-and-ios-app/44526202"
+                                target=" _blank"><i class="fa fa-angle-right me-2"></i>Buy
+                                Now</a></li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row footer-theme partition-f">
+                <div class="col-12">
+                    Copyright 2023 © Ocenus Documentation
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- latest jquery-->
+<script src="../assets/js/jquery-3.5.1.min.js"></script>
+<!-- Bootstrap js-->
+<script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+<!-- popover js-->
+<!-- code copy box js-->
+<script src="../assets/js/clipboard/clipboard.min.js"></script>
+<script src="../assets/js/custom-card/custom-card.js"></script>
+
+<!-- feather icon js-->
+<script src="../assets/js/icons/feather-icon/feather.min.js"></script>
+<script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
+<script src="../assets/js/document/main.js"></script>
+
+
+<!-- Mirrored from docs.pixelstrap.net/reactnative/megabot/document/in_app.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 03:25:52 GMT -->
+</html>
