@@ -1,54 +1,108 @@
-HTTrack3.49-2+htsswf+htsjava launched on Tue, 19 Sep 2023 10:24:57 at https://docs.pixelstrap.net/reactnative/megabot/document/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://docs.pixelstrap.net/reactnative/megabot/document/index.html -O1 "C:\athena-app\athena-app" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/details_open.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/details_close.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/folder.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/js.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/nodejs.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/sass.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/html.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/css.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/gulp.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/txt.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/php.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/music.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/svg.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/json.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/pug.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/mp4.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/img.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/react.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/editorconfig.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/env.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/xml.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/m-readme.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/readme.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/babel.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/vue-icon.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/es_lint.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/favicon.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/web.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/laravel.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/angular.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/ts_file.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/2.gif (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/installer/4.png (from https://docs.pixelstrap.net/reactnative/megabot/document/installation_wizard.html)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/stripe.html (from https://docs.pixelstrap.net/reactnative/megabot/document/caracter.html)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/paypal.html (from https://docs.pixelstrap.net/reactnative/megabot/document/caracter.html)
-10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/razorpay.html (from https://docs.pixelstrap.net/reactnative/megabot/document/caracter.html)
-10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/setting/ads_settings/ad_banner.png (from https://docs.pixelstrap.net/reactnative/megabot/document/ad_settings.html)
-10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/apk-icon.jpg (from https://docs.pixelstrap.net/reactnative/megabot/document/change_app_name.html)
-10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/firebase.png (from https://docs.pixelstrap.net/reactnative/megabot/document/firebase_sha.html)
-10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/google.png (from https://docs.pixelstrap.net/reactnative/megabot/document/google_login.html)
-10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/firebase-setup.html (from https://docs.pixelstrap.net/reactnative/megabot/document/google_login.html)
-10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/errors.png (from https://docs.pixelstrap.net/reactnative/megabot/document/common_error.html)
-10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/exchange.png (from https://docs.pixelstrap.net/reactnative/megabot/document/changelog.html)
-
-HTTrack Website Copier/3.49-2 mirror complete in 56 seconds : 218 links scanned, 174 files written (18026490 bytes overall) [17698215 bytes received at 316039 bytes/sec], 515799 bytes transferred using HTTP compression in 21 files, ratio 15%, 18.1 requests per connection
-(43 errors, 0 warnings, 0 messages)
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 19 Sep 2024 10:24:57 at https://docs.pixelstrap.net/reactnative/megabot/document/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://docs.pixelstrap.net/reactnative/megabot/document/index.html -O1 "C:\athena-app\athena-app" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/details_open.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/details_close.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/folder.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/js.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/nodejs.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/sass.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/html.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/css.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/gulp.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/txt.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/php.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/music.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/svg.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/json.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/pug.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/mp4.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/img.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/react.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/editorconfig.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/env.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/xml.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/m-readme.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/readme.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/babel.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/vue-icon.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/es_lint.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/favicon.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/web.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/laravel.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/angular.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/tree/ts_file.png (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/2.gif (from https://docs.pixelstrap.net/reactnative/megabot/assets/css/style.css)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/installer/4.png (from https://docs.pixelstrap.net/reactnative/megabot/document/installation_wizard.html)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/stripe.html (from https://docs.pixelstrap.net/reactnative/megabot/document/caracter.html)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/paypal.html (from https://docs.pixelstrap.net/reactnative/megabot/document/caracter.html)
+
+10:25:40	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/razorpay.html (from https://docs.pixelstrap.net/reactnative/megabot/document/caracter.html)
+
+10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/setting/ads_settings/ad_banner.png (from https://docs.pixelstrap.net/reactnative/megabot/document/ad_settings.html)
+
+10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/apk-icon.jpg (from https://docs.pixelstrap.net/reactnative/megabot/document/change_app_name.html)
+
+10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/firebase.png (from https://docs.pixelstrap.net/reactnative/megabot/document/firebase_sha.html)
+
+10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/google.png (from https://docs.pixelstrap.net/reactnative/megabot/document/google_login.html)
+
+10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/document/firebase-setup.html (from https://docs.pixelstrap.net/reactnative/megabot/document/google_login.html)
+
+10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/errors.png (from https://docs.pixelstrap.net/reactnative/megabot/document/common_error.html)
+
+10:25:52	Error: 	"Not Found" (404) at link https://docs.pixelstrap.net/reactnative/megabot/assets/images/icons/exchange.png (from https://docs.pixelstrap.net/reactnative/megabot/document/changelog.html)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 56 seconds : 218 links scanned, 174 files written (18026490 bytes overall) [17698215 bytes received at 316039 bytes/sec], 515799 bytes transferred using HTTP compression in 21 files, ratio 15%, 18.1 requests per connection
+
+(43 errors, 0 warnings, 0 messages)
+
